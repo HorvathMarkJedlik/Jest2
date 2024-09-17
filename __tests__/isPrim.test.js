@@ -18,9 +18,15 @@ test("A 3-nak prímnek kellene lennie", () =>{
     expect(isPrime(3)).toBe(true)
 })
 
+test("A 6-nak nem prímnek kellene lennie", () =>{
+    expect(isPrime(6)).toBe(false)
+})
+
 test("A 0-nak nem kellene prímnek lennie", () =>{
     expect(isPrime(0)).toBe(false)
 })
+
+
 
 
 

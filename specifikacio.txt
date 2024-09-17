@@ -1,1 +1,2 @@
 Készíts egy olyan függvényt amely egy természetes számról eldönti, hogy prím-e?
+

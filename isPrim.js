@@ -1,5 +1,3 @@
-const { error } = require("console")
-
 module.exports = function isPrime(szam){
     if (typeof szam === 'string'){
         throw new Error("Nem számot adtál meg!")
